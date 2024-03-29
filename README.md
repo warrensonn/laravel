@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Le but de se projet est de découvrir le framework Laravel.
+J'ai décidé de réaliser un site e-commerce de vente de fleur.
+Les utilisateurs peuvent se connecter ou créer un compte. Il existe
+deux types de comptes: 
+- Administrateur : peut modifier et ajouter des produits
+- Client : peut ajouter des produits à son panier, consulter son panier
+
+Avec plus de temps, j'aurais pu ajouter un historique des commandes pour les clients
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
