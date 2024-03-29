@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ConnectionController;
 
 Route::get('/', function () {
     return view('welcome')->with('header', view('header'));
