@@ -21,6 +21,11 @@ class CreateSessionsTable extends Migration
             $table->text('user_agent')->nullable();
             $table->text('payload');
             $table->integer('last_activity');
+            $table->string('name')->nullable();
+            $table->string('type')->nullable();
+            $table->json('produits')->nullable();
+            $table->integer('quantity')->nullable();
+            $table->integer('inscription')->nullable();
             $table->timestamps();
         });
     }
