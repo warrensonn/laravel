@@ -11,7 +11,7 @@
 J'ai décidé de réaliser un site e-commerce de vente de fleur.
 Les utilisateurs peuvent se connecter ou créer un compte. Il existe
 deux types de comptes: 
-- Administrateur : peut modifier et ajouter des produits
+- Administrateur : peut modifier, ajouter ou supprimer des produits
 - Client : peut ajouter des produits à son panier, consulter son panier
 
 Avec plus de temps, j'aurais pu ajouter un historique des commandes pour les clients
