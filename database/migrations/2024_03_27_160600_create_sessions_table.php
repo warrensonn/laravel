@@ -23,8 +23,8 @@ class CreateSessionsTable extends Migration
             $table->integer('last_activity');
             $table->string('name')->nullable();
             $table->string('type')->nullable();
-            $table->json('produits')->nullable();
-            $table->integer('quantity')->nullable();
+            $table->json('products')->nullable();
+            $table->json('quantity')->nullable();
             $table->integer('inscription')->nullable();
             $table->timestamps();
         });
